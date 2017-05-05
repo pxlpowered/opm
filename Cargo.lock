@@ -3,6 +3,7 @@ name = "opm"
 version = "0.1.0"
 dependencies = [
  "clap 2.24.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "ore 0.1.0",
 ]
 
 [[package]]
@@ -54,6 +55,10 @@ dependencies = [
 name = "libc"
 version = "0.2.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "ore"
+version = "0.1.0"
 
 [[package]]
 name = "strsim"

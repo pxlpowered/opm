@@ -1,0 +1,3 @@
+[submodule "ore"]
+	path = ore
+	url = https://github.com/pxlpowered/ore.git
