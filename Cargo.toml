@@ -1,0 +1,24 @@
+[dependencies]
+
+[dependencies.clap]
+default = false
+features = [
+  "color",
+  "suggestions",
+  "wrap_help",
+  "yaml-rust"
+]
+version = "2.24.0"
+
+[package]
+authors = [
+  "Adam Spofford <pieflavor.mc@gmail.com>",
+  "Hunar Roop Kahlon <hunar.roop@gmail.com>"
+]
+description = "A work-in-progress plugin manager for Sponge Ore."
+homepage = "https://www.github.com/pxlpowered/opm"
+license = "MIT"
+name = "opm"
+readme = "README.md"
+repository = "https://www.github.com/pxlpowered/opm"
+version = "0.1.0"
